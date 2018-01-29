@@ -14,7 +14,8 @@
 
 angular.module('mm.core')
 
-.constant('mmCoreLogEnabledDefault', true) // Default value for logEnabled.
+// .constant('mmCoreLogEnabledDefault', true) // Default value for logEnabled.
+.constant('mmCoreLogEnabledDefault', false)
 .constant('mmCoreLogEnabledConfigName', 'debug_enabled')
 
 /**
